@@ -39,7 +39,7 @@ the labels describes the particular value in question.
 Pakiet AI::Fuzzy sk³ada siê z dwóch modu³ów: AI::Fuzzy::Label i
 AI::Fuzzy::Set.
 
-Zbiór rozmyty to prosty matematyczny zbiór, do ktorego elementy mog±
+Zbiór rozmyty to prosty matematyczny zbiór, do którego elementy mog±
 nale¿eæ czê¶ciowo. Na przyk³ad, konkretny odcieñ szaro¶ci mo¿e
 czê¶ciowo nale¿eæ do zbioru kolorów ciemnych, natomiast czarny bêdzie
 nale¿a³ do niego ca³kowicie, a cytrynowo-¿ó³ty nie bêdzie nale¿a³
