@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	AI
 %define	pnam	Fuzzy
-Summary:	AI::Fuzzy -- Perl extension for Fuzzy Logic
-Summary(pl):	AI::Fuzzy -- rozszerzenie Perla do logiki rozmytej
-Name:		perl-%{pdir}-%{pnam}
-Version:	0.01
-Release:	2
+Summary:	AI::Fuzzy - Perl extension for Fuzzy Logic
+Summary(pl):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
+Name:		perl-AI-Fuzzy
+Version:	0.02
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -44,7 +48,7 @@ Rozmyta funkcja etykietuj±ca klasyfikuje now± konkretn± warto¶æ
 sprawdzaj±c stopieñ, w jakim nale¿y do ró¿nych zbiorów i wybieraj±c
 najbardziej odpowiedni. Na przyk³ad, aby zdecydowaæ, jak nazywaæ wodê
 o temperaturze 60 stopni Fahrenheita "zimn±", "ch³odn±" czy "ciep³±".
-Rozmyt±a etykiet± mo¿e byæ jedna z nich, lub rozmyty zbiór opisuj±cy w
+Rozmyt± etykiet± mo¿e byæ jedna z nich, lub rozmyty zbiór opisuj±cy w
 jakim stopniu ka¿da z tych etykiet opisuje dan± warto¶æ.
 
 %prep
@@ -65,6 +69,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc Changes
 %{perl_sitelib}/%{pdir}/*.pm
 %{perl_sitelib}/%{pdir}/%{pnam}
 %{_mandir}/man3/*
