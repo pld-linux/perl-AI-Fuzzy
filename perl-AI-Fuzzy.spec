@@ -10,7 +10,7 @@ Summary(pl):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
 Name:		perl-AI-Fuzzy
 Version:	0.05
 Release:	2
-License:	GPL/Artistic
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8f9d8f20cff0ad81651f96800f15e6b3
