@@ -2,10 +2,10 @@
 %define	pdir	AI
 %define	pnam	Fuzzy
 Summary:	AI::Fuzzy -- Perl extension for Fuzzy Logic
-#Summary(pl):	AI::Fuzzy -- 
+Summary(pl):	AI::Fuzzy -- rozszerzenie Perla do logiki rozmytej
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.01
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,12 +26,26 @@ and lemon yellow would have almost no membership.
 A fuzzy labeler classifies a particular crisp value by examining the
 degree to which it belongs to several sets, and selecting the most
 appropriate.  For example, it can decide whether to call water at 60
-degrees Farenheight "cold", "cool", or "warm".  A fuzzy label might be
+degrees Fahrenheit "cold", "cool", or "warm".  A fuzzy label might be
 one of these labels, or a fuzzy set describing to what degree each of
 the labels describes the particular value in question.
 
-# %description -l pl
-# TODO
+%description -l pl
+Pakiet AI::Fuzzy sk³ada siê z dwóch modu³ów: AI::Fuzzy::Label i
+AI::Fuzzy::Set.
+
+Zbiór rozmyty to prosty matematyczny zbiór, do ktorego elementy mog±
+nale¿eæ czê¶ciowo. Na przyk³ad, konkretny odcieñ szaro¶ci mo¿e
+czê¶ciowo nale¿eæ do zbioru kolorów ciemnych, natomiast czarny bêdzie
+nale¿a³ do niego ca³kowicie, a cytrynowo-¿ó³ty nie bêdzie nale¿a³
+prawie wcale.
+
+Rozmyta funkcja etykietuj±ca klasyfikuje now± konkretn± warto¶æ
+sprawdzaj±c stopieñ, w jakim nale¿y do ró¿nych zbiorów i wybieraj±c
+najbardziej odpowiedni. Na przyk³ad, aby zdecydowaæ, jak nazywaæ wodê
+o temperaturze 60 stopni Fahrenheita "zimn±", "ch³odn±" czy "ciep³±".
+Rozmyt±a etykiet± mo¿e byæ jedna z nich, lub rozmyty zbiór opisuj±cy w
+jakim stopniu ka¿da z tych etykiet opisuje dan± warto¶æ.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
