@@ -57,7 +57,7 @@ jakim stopniu ka¿da z tych etykiet opisuje dan± warto¶æ.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
