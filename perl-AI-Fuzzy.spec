@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	AI
-%define	pnam	Fuzzy
+%define		pdir	AI
+%define		pnam	Fuzzy
 Summary:	AI::Fuzzy - Perl extension for Fuzzy Logic
 Summary(pl):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
 Name:		perl-AI-Fuzzy
@@ -24,14 +24,14 @@ AI::Fuzzy really consists of two modules - AI::Fuzzy::Label and
 AI::Fuzzy::Set.
 
 A fuzzy set is simply a mathematical set to which members can partially
-belong.  For example, a particular shade of gray may partially belong
+belong. For example, a particular shade of gray may partially belong
 to the set of dark colors, whereas black would have full membership,
 and lemon yellow would have almost no membership.
 
 A fuzzy labeler classifies a particular crisp value by examining the
 degree to which it belongs to several sets, and selecting the most
-appropriate.  For example, it can decide whether to call water at 60
-degrees Fahrenheit "cold", "cool", or "warm".  A fuzzy label might be
+appropriate. For example, it can decide whether to call water at 60
+degrees Fahrenheit "cold", "cool", or "warm". A fuzzy label might be
 one of these labels, or a fuzzy set describing to what degree each of
 the labels describes the particular value in question.
 
