@@ -23,10 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 AI::Fuzzy really consists of two modules - AI::Fuzzy::Label and
 AI::Fuzzy::Set.
 
-A fuzzy set is simply a mathematical set to which members can partially
-belong. For example, a particular shade of gray may partially belong
-to the set of dark colors, whereas black would have full membership,
-and lemon yellow would have almost no membership.
+A fuzzy set is simply a mathematical set to which members can
+partially belong. For example, a particular shade of gray may
+partially belong to the set of dark colors, whereas black would have
+full membership, and lemon yellow would have almost no membership.
 
 A fuzzy labeler classifies a particular crisp value by examining the
 degree to which it belongs to several sets, and selecting the most
