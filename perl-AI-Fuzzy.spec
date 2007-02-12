@@ -6,7 +6,7 @@
 %define		pdir	AI
 %define		pnam	Fuzzy
 Summary:	AI::Fuzzy - Perl extension for Fuzzy Logic
-Summary(pl):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
+Summary(pl.UTF-8):   AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
 Name:		perl-AI-Fuzzy
 Version:	0.05
 Release:	3
@@ -35,22 +35,22 @@ degrees Fahrenheit "cold", "cool", or "warm". A fuzzy label might be
 one of these labels, or a fuzzy set describing to what degree each of
 the labels describes the particular value in question.
 
-%description -l pl
-Pakiet AI::Fuzzy sk³ada siê z dwóch modu³ów: AI::Fuzzy::Label i
+%description -l pl.UTF-8
+Pakiet AI::Fuzzy skÅ‚ada siÄ™ z dwÃ³ch moduÅ‚Ã³w: AI::Fuzzy::Label i
 AI::Fuzzy::Set.
 
-Zbiór rozmyty to prosty matematyczny zbiór, do którego elementy mog±
-nale¿eæ czê¶ciowo. Na przyk³ad, konkretny odcieñ szaro¶ci mo¿e
-czê¶ciowo nale¿eæ do zbioru kolorów ciemnych, natomiast czarny bêdzie
-nale¿a³ do niego ca³kowicie, a cytrynowo-¿ó³ty nie bêdzie nale¿a³
+ZbiÃ³r rozmyty to prosty matematyczny zbiÃ³r, do ktÃ³rego elementy mogÄ…
+naleÅ¼eÄ‡ czÄ™Å›ciowo. Na przykÅ‚ad, konkretny odcieÅ„ szaroÅ›ci moÅ¼e
+czÄ™Å›ciowo naleÅ¼eÄ‡ do zbioru kolorÃ³w ciemnych, natomiast czarny bÄ™dzie
+naleÅ¼aÅ‚ do niego caÅ‚kowicie, a cytrynowo-Å¼Ã³Å‚ty nie bÄ™dzie naleÅ¼aÅ‚
 prawie wcale.
 
-Rozmyta funkcja etykietuj±ca klasyfikuje now± konkretn± warto¶æ
-sprawdzaj±c stopieñ, w jakim nale¿y do ró¿nych zbiorów i wybieraj±c
-najbardziej odpowiedni. Na przyk³ad, aby zdecydowaæ, jak nazywaæ wodê
-o temperaturze 60 stopni Fahrenheita "zimn±", "ch³odn±" czy "ciep³±".
-Rozmyt± etykiet± mo¿e byæ jedna z nich, lub rozmyty zbiór opisuj±cy w
-jakim stopniu ka¿da z tych etykiet opisuje dan± warto¶æ.
+Rozmyta funkcja etykietujÄ…ca klasyfikuje nowÄ… konkretnÄ… wartoÅ›Ä‡
+sprawdzajÄ…c stopieÅ„, w jakim naleÅ¼y do rÃ³Å¼nych zbiorÃ³w i wybierajÄ…c
+najbardziej odpowiedni. Na przykÅ‚ad, aby zdecydowaÄ‡, jak nazywaÄ‡ wodÄ™
+o temperaturze 60 stopni Fahrenheita "zimnÄ…", "chÅ‚odnÄ…" czy "ciepÅ‚Ä…".
+RozmytÄ… etykietÄ… moÅ¼e byÄ‡ jedna z nich, lub rozmyty zbiÃ³r opisujÄ…cy w
+jakim stopniu kaÅ¼da z tych etykiet opisuje danÄ… wartoÅ›Ä‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
