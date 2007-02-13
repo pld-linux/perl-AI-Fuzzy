@@ -6,7 +6,7 @@
 %define		pdir	AI
 %define		pnam	Fuzzy
 Summary:	AI::Fuzzy - Perl extension for Fuzzy Logic
-Summary(pl.UTF-8):   AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
+Summary(pl.UTF-8):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
 Name:		perl-AI-Fuzzy
 Version:	0.05
 Release:	3
