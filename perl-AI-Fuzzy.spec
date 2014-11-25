@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	AI
 %define		pnam	Fuzzy
+%include	/usr/lib/rpm/macros.perl
 Summary:	AI::Fuzzy - Perl extension for Fuzzy Logic
 Summary(pl.UTF-8):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
 Name:		perl-AI-Fuzzy
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8f9d8f20cff0ad81651f96800f15e6b3
+URL:		http://search.cpan.org/dist/AI-Fuzzy/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
