@@ -4,7 +4,6 @@
 
 %define		pdir	AI
 %define		pnam	Fuzzy
-%include	/usr/lib/rpm/macros.perl
 Summary:	AI::Fuzzy - Perl extension for Fuzzy Logic
 Summary(pl.UTF-8):	AI::Fuzzy - rozszerzenie Perla do logiki rozmytej
 Name:		perl-AI-Fuzzy
